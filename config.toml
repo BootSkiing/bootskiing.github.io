@@ -42,3 +42,7 @@ url = "/index.xml"
 custom_css = ["css/theme-override.css"]
 description = "A simple, minimal blog for those who love text."
 footer = "Thanks for reading :)"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
