@@ -1,4 +1,4 @@
-baseurl = "https://example.com"
+baseurl = "https://bootskiing.github.io"
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 googleAnalytics = ""
@@ -31,9 +31,13 @@ name = "Posts"
 url = "/posts/"
 weight = 1
 [[menu.main]]
+name = "Slides"
+url = "/slides/"
+weight = 2
+[[menu.main]]
 name = "Tags"
 url = "/tags/"
-weight = 2
+weight = 3
 [[menu.feed]]
 name = "RSS"
 url = "/index.xml"
