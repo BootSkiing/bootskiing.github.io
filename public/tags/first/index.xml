@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>first! on CJ&#39;s Blog</title>
+    <link>https://example.com/tags/first/</link>
+    <description>Recent content in first! on CJ&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Jan 2026 14:02:36 -0700</lastBuildDate><atom:link href="https://example.com/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://example.com/posts/first/</link>
+      <pubDate>Mon, 19 Jan 2026 14:02:36 -0700</pubDate>
+      
+      <guid>https://example.com/posts/first/</guid>
+      <description>Welcome! This is my attempt at an all-in-one blog; a place to document all the different projects in my life. Security, gardening, cars, skiing - it&amp;rsquo;s all here! So welcome :)</description>
+    </item>
+    
+  </channel>
+</rss>

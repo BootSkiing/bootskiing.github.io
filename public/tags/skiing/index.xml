@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>skiing on CJ&#39;s Blog</title>
+    <link>https://example.com/tags/skiing/</link>
+    <description>Recent content in skiing on CJ&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Feb 2026 19:07:00 -0700</lastBuildDate><atom:link href="https://example.com/tags/skiing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reflections on an AAI Hut Trip</title>
+      <link>https://example.com/posts/aai-hut/</link>
+      <pubDate>Thu, 19 Feb 2026 19:07:00 -0700</pubDate>
+      
+      <guid>https://example.com/posts/aai-hut/</guid>
+      <description>At the end of January 2026 I took a 3-day AAI Avalanche Level 1 course through Colorado Mountain School. The course is offered in a hybrid capacity but I opted for one the hut-versions which take place at several 10th Mountain Division huts. Living in Denver, I knew the front range would be my closest and primary ski range, so the Broome Hut made the most sense.
+Meeting up at the Berthoud Pass warming hut, our group were the only cars in the lot.</description>
+    </item>
+    
+  </channel>
+</rss>
