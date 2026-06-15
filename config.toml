@@ -35,12 +35,16 @@ name = "Slides"
 url = "/slides/"
 weight = 2
 [[menu.main]]
+name = "Referral Links"
+url = "/posts/referrals/"
+weight = 3
+[[menu.main]]
 name = "Tags"
 url = "/tags/"
-weight = 3
-[[menu.feed]]
-name = "RSS"
-url = "/index.xml"
+weight = 4
+# [[menu.feed]]
+# name = "RSS"
+# url = "/index.xml"
 
 [params]
 custom_css = ["css/theme-override.css"]
