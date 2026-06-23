@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on CJ&#39;s Blog</title>
-    <link>https://bootskiing.github.io/</link>
-    <description>Recent content in Home on CJ&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 19 Feb 2026 19:07:00 -0700</lastBuildDate><atom:link href="https://bootskiing.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Reflections on an AAI Hut Trip</title>
-      <link>https://bootskiing.github.io/posts/aai-hut/</link>
-      <pubDate>Thu, 19 Feb 2026 19:07:00 -0700</pubDate>
-      
-      <guid>https://bootskiing.github.io/posts/aai-hut/</guid>
-      <description>At the end of January 2026 I took a 3-day AAI Avalanche Level 1 course through Colorado Mountain School. The course is offered in a hybrid capacity but I opted for one the hut-versions which take place at several 10th Mountain Division huts. Living in Denver, I knew the front range would be my closest and primary ski range, so the Broome Hut made the most sense.
-Meeting up at the Berthoud Pass warming hut, our group were the only cars in the lot.</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>https://bootskiing.github.io/posts/first/</link>
-      <pubDate>Mon, 19 Jan 2026 14:02:36 -0700</pubDate>
-      
-      <guid>https://bootskiing.github.io/posts/first/</guid>
-      <description>Welcome! This is my attempt at an all-in-one blog; a place to document all the different projects in my life. Security, gardening, cars, skiing - it&amp;rsquo;s all here! So welcome :)</description>
-    </item>
-    
-  </channel>
+	<channel>
+		<title>Home on CJ&#39;s Blog</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Home on CJ&#39;s Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 22 Jun 2026 09:12:10 -0600</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>What I Use My Flipper Zero For</title>
+				<link>http://localhost:1313/posts/flipper/</link>
+				<pubDate>Mon, 22 Jun 2026 09:12:10 -0600</pubDate>
+				<guid>http://localhost:1313/posts/flipper/</guid>
+				<description>&lt;p&gt;I think it can be safely said that the Flipper Zero is one of the most iconic hacker devices of this decade. Filled to the brim with features, and yet tragically over-hyped, I think some people came away from the project feeling&amp;hellip; disappointed? I can&amp;rsquo;t relate. Even though I&amp;rsquo;m not using using my Flipper to unlock cars (&lt;a href=&#34;https://forum.dangerousthings.com/t/car-unlock-and-ignition-advice/5624/45&#34;&gt;yet&lt;/a&gt;), here are some things I &lt;em&gt;am&lt;/em&gt; using it for, and some ideas that I&amp;rsquo;d like to explore.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Referral Links</title>
+				<link>http://localhost:1313/posts/referrals/</link>
+				<pubDate>Sun, 14 Jun 2026 19:02:19 -0600</pubDate>
+				<guid>http://localhost:1313/posts/referrals/</guid>
+				<description>&lt;p&gt;If you&amp;rsquo;d like to support me in an indirect way, you can use the following referral links:&lt;/p&gt;&#xA;&lt;h1 id=&#34;capital-one-venture-x&#34;&gt;Capital One Venture X&lt;/h1&gt;&#xA;&lt;h2&gt;&lt;a href=&#34;https://i.capitalone.com/G0k5OaWkQ&#34;&gt;https://i.capitalone.com/G0k5OaWkQ&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is the best travel card IMO. The annual fee is low (comparatively), the travel credit is easy to use, the multipliers are convenient, and I&amp;rsquo;ve been able to make ample use of the Capital One lounge network as well as Priority Pass. The typical sign up bonus is 75k miles ($750). Signing up with this link gives me 10k miles (~$100).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Diagnosing That I Do NOT Have a Blown Head Gasket</title>
+				<link>http://localhost:1313/posts/headgasket/</link>
+				<pubDate>Sun, 03 May 2026 21:11:07 -0600</pubDate>
+				<guid>http://localhost:1313/posts/headgasket/</guid>
+				<description>&lt;p&gt;I am the proud owner of a 2003 Subaru Baja, but the thing is low-key a POS. When I bought the car in September of 2025 I had a vague idea of what I was getting into. The main issue was a P420 code which led to my first home-repair: replacing the catalytic converter. Around that time it got an oil change, and a top-off of coolant. Much time has passed since then, and honestly no major issues. But the other week I noticed that my coolant is once again at low, and that&amp;rsquo;s never a good thing&amp;hellip;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Reflections on an AAI Hut Trip</title>
+				<link>http://localhost:1313/posts/aai-hut/</link>
+				<pubDate>Thu, 19 Feb 2026 19:07:00 -0700</pubDate>
+				<guid>http://localhost:1313/posts/aai-hut/</guid>
+				<description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/frankenstein.jpg&#34; alt=&#34;&#34; title=&#34;Looking Southwest of the hut, Frankenstein Couloir&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;At the end of January 2026 I took a &lt;a href=&#34;https://coloradomountainschool.com/course/avalanche-level-1-hut-trip/&#34;&gt;3-day AAI Avalanche Level 1 course&lt;/a&gt; through Colorado Mountain School. The course is offered in a hybrid capacity but I opted for one the hut-versions which take place at several 10th Mountain Division huts. Living in Denver, I knew the front range would be my closest and primary ski range, so the Broome Hut made the most sense.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>First</title>
+				<link>http://localhost:1313/posts/first/</link>
+				<pubDate>Mon, 19 Jan 2026 14:02:36 -0700</pubDate>
+				<guid>http://localhost:1313/posts/first/</guid>
+				<description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome!&lt;/h1&gt;&#xA;&lt;p&gt;This is my attempt at an all-in-one blog; a place to document all the different projects in my life. Security, gardening, cars, skiing - it&amp;rsquo;s all here! So welcome :)&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

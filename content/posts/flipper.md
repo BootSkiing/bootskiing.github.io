@@ -1,7 +1,7 @@
 ---
-title: "What I Actually Use my Flipper Zero For"
-date: 2026-05-31T09:12:10-06:00
-draft: true
+title: "What I Use My Flipper Zero For"
+date: 2026-06-22T09:12:10-06:00
+draft: false
 tags: ['flipper, infosec, hardware']
 ---
 
@@ -77,34 +77,29 @@ My old college org, CSH, used to use them for access control to rooms and servic
 I've got a laundry list of things that are on my Flipper Zero bucket list. This blog post is already getting pretty long, so I'll try to make this quick:
 
 ## NFC Downgrade Attacks
-This attack was brought to my attention by a [DEFCON 28 talk given by Babak and Iceman](https://www.youtube.com/watch?v=ghiHXK4GEzE), both titans in the RF access control space. I remember their explanation being a little complex, but the attack is simple once you understand it. It takes advantage of badge readers in "transition mode", a mode which allows readers to accept both highly secure badge protocols (DESFIRE, Seos) as well as legacy protocols (HIDPRox, etc.). In their demo, the duo weaponizes an HID reader to read a secure credential, capture its corresponding wiegand data, and write it to a corresponding insecure credential. Because the target reader is in a transition mode, accepts both technologies, and the both cards evaluate to the same wiegand data, both the secure credential and the cloned, insecure, credential are evaluated the same.
+This attack was brought to my attention by a [DEFCON 28 talk given by Babak and Iceman](https://www.youtube.com/watch?v=ghiHXK4GEzE), both titans in the RF access control space. I remember their explanation being a little complex, but the attack is simple once you understand it. It takes advantage of badge readers in "transition mode", a mode which allows readers to accept both highly secure badge protocols (DESFIRE, Seos) as well as legacy protocols (HIDProx, etc.). In their demo, the duo weaponizes an HID reader to read a secure credential, capture its corresponding wiegand data, and write it to an insecure credential. Because the target reader is in a transition mode, accepts both technologies, and the both cards evaluate to the same wiegand data, both the secure credential and the cloned, insecure, credential are evaluated the same.
 
 This is a really cool attack. I've got a bad habit of using the [HID management app](https://play.google.com/store/apps/details?id=com.hidglobal.pacs.readermanager&hl=en) to look at the supported protocols of readers I find in the wild. 80% of these readers support both low and high frequency cards, implying that they are susceptible to this attack.
 
 How does the Flipper Zero come in? You can buy [modules](https://www.redteamtools.com/sam-adams-for-flipper-zero/) that contain the secure element (SAM) for HID readers. This let's you use a Flipper to read the data from DEFIRE and Seos cards. [Apps](https://github.com/bettse/seader) can them be used to emulate that data in the form of less secure cards. At the moment there isn't a lot of DESFIRE and Seos in my life, but I'm the proud owner of a SAMadams and I can't wait for the opportunity to use it.
  
+## Ulta-High Frequency
+The Flipper Zero also has [3rd party modules](https://www.redteamtools.com/flippermeister/) that let it interact with Ulta-High Frequency (UHF) cards. These are used by the garage door opener at my apartment complex. I don't think you can emulate with the device, but I think you can read and write, and it also has SAM support. My excuse for not doing anything yet is that their aren't many use-cases in my life, but this would be a fun one for malicious access to a building or complex via a cloned garage sticker.
 
-- capabilities overview
-- serial uart connector
-- NFC
-  > Hand, GF apartment, Hotel cards (mifare classic)
-  > Some client env (iClass SE)
-- RFID
-  > Hand, again. Making copies for my dad (HID Prox)
-  > Brute forcing valid cards in client env
-- Sub-ghz
-  > Cloning my fan's remote
-- i-Button
-  > CSH
+## BadUSB
+The BadUSB app let's the Flipper emulate a Human Interface Device (HID) in order to interact with devices as if it were a keyboard or mouse. This opens up some pretty cool avenues for kiosk breakouts (when only a USB port is accessible) or for opportunistic initial access scenarios where you could plug into an unlocked PC, run a quick script, and get a beacon callback. I haven't set up any that. One feature that would be really cool, which I don't think will be reasonable until the [Flipper One](https://blog.flipper.net/flipper-one-we-need-your-help/) comes out, is a Flipper variant of Quick Creds. This is a [Bash Bunny payload](https://github.com/hak5/bashbunny-payloads/blob/master/payloads/library/credentials/QuickCreds/readme.md) that emulates a network adapter and runs responder against the target to coerce NTLM credentials from the host. The Flipper isn't really set up with a networking stack, but maybe this could be a good vibe-coding opportunity.
 
-  TODO
-  - DESfire and Seos downgrade attacks (NARD / SAM adams)
-  - UHF cloning (garage door reader)
-  - BadUSB (initial access)
-    > Need to change hardware ID
-    > Quick creds on a Flipper??
-  - Key cloning
-  - Combo cracking
-  - Sub-Ghz bruteforce
-  - Passport reader
-  - Sentry safe
+## Key Cloning
+You won't find this one on TikTok. There is a (...)[fap](https://github.com/zinongli/KeyCopier) that allows a user to decode known key formats in the field. Simply hold up a key to the screen and adjust the lines to fir the biting. You could then take this biting to a key cutting machine to create a duplicate, or use templates to model and 3D print a copy. I honestly don't have that many keys in my life, but when the time comes I'll be ready. Denhac even has a key cutting machine.
+
+## Combination Lock Cracking
+[Another one-off app](https://github.com/zinongli/KeyCopier). This one isn't using the Flipper for anything other than some quick maths. Masterlock combination locks have a known vulnerability (made popular my Samy Kamkar, my hero) that allows a combination to be derived in 8 attempts or less. I'll do this one day.
+
+## Sub-Ghz Bruteforce
+This one is really cool and I don't see a lot of people talking about it. There are [apps](https://github.com/tobiabocchi/flipperzero-bruteforce) on the alternative firmwares that can bruteforce certain sub-ghz protocols. These protocols are often used for physical access gates. One cool application is wireless handicap door buttons. The codes for these are typically 4 DIP switches, which is easily bruteforceable in a couple of minutes, potentially allowing access through an otherwise locked door.
+
+## Passport Reader
+If you didn't know, your passport has an NFC tag in it. With knowledge of the passport number, the rest of the passport data can be read. [This Flipper app can do that](https://github.com/bettse/passy). I'm just to scared to put in my passport number.
+
+## Sentry Safe Bypass
+Awhile back someone found the backdoor code that opens all Sentry-branded safes. [This Flipper app](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin) lets you open up Sentry safes Hollywood-Style by hooking up some serial cables and hitting "unlock". How cool is that?!

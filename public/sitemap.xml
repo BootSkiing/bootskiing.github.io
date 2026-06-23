@@ -2,29 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bootskiing.github.io/</loc>
+    <loc>http://localhost:1313/tags/churning/</loc>
+    <lastmod>2026-06-14T19:02:19-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/finance/</loc>
+    <lastmod>2026-06-14T19:02:19-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-14T19:02:19-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-06-14T19:02:19-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/referrals/</loc>
+    <lastmod>2026-06-14T19:02:19-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-06-14T19:02:19-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/baja/</loc>
+    <lastmod>2026-05-03T21:11:07-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/car/</loc>
+    <lastmod>2026-05-03T21:11:07-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/headgasket/</loc>
+    <lastmod>2026-05-03T21:11:07-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/aai-hut/</loc>
     <lastmod>2026-02-19T19:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://bootskiing.github.io/posts/</loc>
+    <loc>http://localhost:1313/tags/skiing/</loc>
     <lastmod>2026-02-19T19:07:00-07:00</lastmod>
   </url><url>
-    <loc>https://bootskiing.github.io/posts/aai-hut/</loc>
-    <lastmod>2026-02-19T19:07:00-07:00</lastmod>
-  </url><url>
-    <loc>https://bootskiing.github.io/tags/skiing/</loc>
-    <lastmod>2026-02-19T19:07:00-07:00</lastmod>
-  </url><url>
-    <loc>https://bootskiing.github.io/tags/</loc>
-    <lastmod>2026-02-19T19:07:00-07:00</lastmod>
-  </url><url>
-    <loc>https://bootskiing.github.io/posts/first/</loc>
+    <loc>http://localhost:1313/posts/first/</loc>
     <lastmod>2026-01-19T14:02:36-07:00</lastmod>
   </url><url>
-    <loc>https://bootskiing.github.io/tags/first/</loc>
+    <loc>http://localhost:1313/tags/first/</loc>
     <lastmod>2026-01-19T14:02:36-07:00</lastmod>
   </url><url>
-    <loc>https://bootskiing.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://bootskiing.github.io/slides/</loc>
+    <loc>http://localhost:1313/slides/</loc>
   </url>
 </urlset>
