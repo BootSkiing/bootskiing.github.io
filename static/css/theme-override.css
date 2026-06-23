@@ -21,6 +21,11 @@ main figure.post-figure figcaption {
   color: #595959;
   margin-top: 0.5rem;
 }
+/* Same as the listing date: #595959 is nearly the dark-mode background
+   (#393E41), so lighten captions to a readable muted grey in dark mode. */
+@media (prefers-color-scheme: dark) {
+  main figure.post-figure figcaption { color: #b0b0b0; }
+}
 
 /* Post listing: no bullets, flush-left */
 .post-list {
@@ -33,17 +38,25 @@ main figure.post-figure figcaption {
   font-size: 1.2em;
 }
 
-/* Date beneath the title (block-level <div> keeps it on its own line) */
+/* Date beneath the title (block-level <div> keeps it on its own line).
+   Muted grey so it reads as secondary metadata against the darker blurb. */
 .post-date {
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: #595959;
   margin-top: 0.15rem;
 }
+/* In dark mode #595959 is nearly the page background (#393E41); lighten the
+   date to a muted grey that stays readable yet still recedes from the blurb. */
+@media (prefers-color-scheme: dark) {
+  .post-date { color: #b0b0b0; }
+}
 
-/* Blurb under each post title in listings */
+/* Blurb under each post title in listings. Inherits the body text color
+   (black in light mode, white in dark) so it stays the primary, readable
+   text against the muted grey date. */
 .post-summary {
   margin: 0.25rem 0 0.9rem;
-  color: #595959;
+  color: inherit;
   font-size: 0.95em;
   line-height: 1.4;
 }
