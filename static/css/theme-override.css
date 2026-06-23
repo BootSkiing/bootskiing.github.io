@@ -60,3 +60,28 @@ main figure.post-figure figcaption {
   font-size: 0.95em;
   line-height: 1.4;
 }
+
+/* Single post header: drop the boxed look, left-align with the body text.
+   Targets .article-meta only — the shared `.article-meta, .menu a` rules in
+   style.css keep the nav menu links boxed/centered. */
+.article-meta {
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  margin: 0 0 1.5rem 0;
+  text-align: left;
+}
+
+/* Date: muted, small secondary metadata (mirrors .post-date in listings) */
+.article-meta .date {
+  font-size: 0.95em;
+  font-weight: normal;
+  color: #595959;
+  margin: 0.15rem 0 0;
+  line-height: 1.4;
+}
+@media (prefers-color-scheme: dark) {
+  /* #595959 is nearly the dark bg (#393E41); lighten to stay readable */
+  .article-meta .date { color: #b0b0b0; }
+}
