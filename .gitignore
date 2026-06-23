@@ -1,0 +1,15 @@
+# Hugo build output (regenerated and deployed by GitHub Actions)
+/public/
+
+# Hugo caches and generated resources
+/resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# Local tooling / agent config
+/.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp

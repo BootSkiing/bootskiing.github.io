@@ -10,6 +10,9 @@ title = "CJ's Blog"
 [markup.goldmark.renderer]
 unsafe = true
 
+[markup.goldmark.parser]
+wrapStandAloneImageWithinParagraph = false
+
 [markup.highlight]
 anchorLineNos = false
 codeFences = true

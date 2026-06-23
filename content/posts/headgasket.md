@@ -16,16 +16,17 @@ The Marketplace listing claimed the head gasket had already been replaced, which
 
 ## Checking the Oil Cap
 A gasket failure could allow coolant to seep into the oil pathways that are also in the engine head. Coolant can make it's way back to oil pan where it can mix, boil, evaporate, and do other nasty chemical nonsense. A "milky" oil cap can indicate that something is wrong:
-<img src="/images/oil-cap.jpg" alt="uh oh" width="400"/>
+
+![Oil filler cap removed from the engine](/images/oil-cap.jpg "uh oh")
 
 In my case the oil cap was as clean as a whistle.
 
 ## Checking the Oil
 I didn't do a full check of the oil, but I had done an oil change a couple months back. Milky oil coming out of the pan is another visual indicator that bad things are mixing. Color is described as chocolate milk. Here is a photo from my oil change (I was tilting into the light to try and show the sparkles) and a confirmed case of oil and coolant mixing. Mine looks a little brown, but honestly not as bad as other photos I was seeing online; I think it passes.
 
-<img src="/images/oil.jpg" alt="Send me an email if this looks bad" width="400"/>
+![Used engine oil on the dipstick](/images/oil.jpg "Send me an email if this looks bad")
 
-<img src="/images/choco-milk.jpg" alt="Not for human consumption" width="400"/>
+![Coolant-contaminated oil resembling chocolate milk](/images/choco-milk.jpg "Not for human consumption")
 
 ## Checking the Exhaust
 If coolant is burning up in the combustion chamber then it can also be detected by checking the exhaust. Nitrogen, CO2, and H2O are the main exhaust byproducts, but the boiling of the coolant will cause excess water vapor and other tasty chemicals to enter the exhaust system. The way this manifests is through consistent white smoke coming out of the tail pipe. You can also feel the end of the tail pipe after a driving session to see if it's wet - a wet tail pipe indicates excess water vapor which probably means coolant getting burned in the engine. I get a little white exhaust when I fist start the car, but it goes away after driving a bit and the tail pipe is as dry a sober desert.

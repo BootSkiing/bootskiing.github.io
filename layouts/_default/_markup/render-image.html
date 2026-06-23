@@ -1,0 +1,14 @@
+{{- /* Markdown image render hook: standalone images become centered <figure>
+       with an optional italic <figcaption> (from the image title), while
+       inline images stay bare so they don't break text flow. Requires
+       markup.goldmark.parser.wrapStandAloneImageWithinParagraph = false. */ -}}
+{{- if .IsBlock -}}
+<figure class="post-figure">
+  <img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
+  {{- with .Title }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
+{{- else -}}
+<img src="{{ .Destination | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy">
+{{- end -}}
