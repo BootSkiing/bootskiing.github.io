@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<div class="content-wrapper">
+{{if not .IsHome }}
+  <h1>{{ .Title | markdownify }}</h1>
+  {{ end }}
+
+  {{ .Content }}
+
+  <ul class="post-list">
+     {{ $pages := .Pages }}
+     {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
+     {{ range (where $pages "Section" "!=" "") }}
+     <li>
+       <a class="post-title" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+       <div class="date post-date">{{ .Date.Format "January 2, 2006" }}</div>
+       {{ $blurb := "" }}
+       {{ with .Description }}
+         {{ $blurb = . }}
+       {{ else }}
+         {{ $sentences := findRE `[^.!?]+[.!?]+\s*` (.Plain | htmlUnescape) 3 }}
+         {{ $blurb = delimit $sentences "" | strings.TrimSpace }}
+       {{ end }}
+       {{ with $blurb }}<p class="post-summary">{{ . }}</p>{{ end }}
+     </li>
+     {{ end }}
+   </ul>
+</div>
+{{ partial "footer.html" . }}

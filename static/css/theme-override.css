@@ -21,3 +21,29 @@ main figure.post-figure figcaption {
   color: #595959;
   margin-top: 0.5rem;
 }
+
+/* Post listing: no bullets, flush-left */
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Post title in listings: slightly larger than body text */
+.post-title {
+  font-size: 1.2em;
+}
+
+/* Date beneath the title (block-level <div> keeps it on its own line) */
+.post-date {
+  font-size: 0.9em;
+  color: #595959;
+  margin-top: 0.15rem;
+}
+
+/* Blurb under each post title in listings */
+.post-summary {
+  margin: 0.25rem 0 0.9rem;
+  color: #595959;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
