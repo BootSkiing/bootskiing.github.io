@@ -27,7 +27,7 @@ That's right, probably the most exciting feature ever (/s). Using the Flipper's 
 To connect, I use jumper wires to connect the Rx of the target device to the Tx of the Flipper, then the Tx of the device to the Rx of the Flipper. I start the app (GPIO -> USB-UART Bridge), and plug the Flipper into my PC over USB-C. To connect, I use the following command:
 
 
-`screen /dev/ttyACM0 115200 `
+`screen /dev/ttyACM0 115200`
 
 note: you may need to adjust your [dialout permissions](https://askubuntu.com/questions/133235/how-do-i-allow-non-root-access-to-ttyusb0) to get the connection to work.
 
