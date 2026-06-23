@@ -1,5 +1,6 @@
 ---
 title: "Reflections on an AAI Hut Trip"
+description: "At the end of January 2026 I took a 3-day AAI Avalanche Level 1 course through Colorado Mountain School."
 date: 2026-02-19T19:07:00-07:00
 draft: false
 tags: ['skiing']

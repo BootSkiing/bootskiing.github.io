@@ -1,5 +1,6 @@
 ---
 title: "Referral Links"
+description: "If you'd like to support me in an indirect way, you can use the following referral links"
 date: 2026-06-14T19:02:19-06:00
 draft: false
 tags: ['finance','churning']
