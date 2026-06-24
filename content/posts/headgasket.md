@@ -1,5 +1,6 @@
 ---
 title: "Diagnosing That I Do NOT Have a Blown Head Gasket"
+description: "I am the proud owner of a 2003 Subaru Baja, but the thing is low-key a POS. When I bought the car in September of 2025 I had a vague idea of what I was getting into. The main issue was a P420 code which led to my first home-repair: replacing the catalytic converter."
 date: 2026-05-03T21:11:07-06:00
 draft: false
 tags: ['Car', 'Baja']

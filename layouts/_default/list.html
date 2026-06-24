@@ -17,9 +17,6 @@
        {{ $blurb := "" }}
        {{ with .Description }}
          {{ $blurb = . }}
-       {{ else }}
-         {{ $sentences := findRE `[^.!?]+[.!?]+\s*` (.Plain | htmlUnescape) 3 }}
-	 {{ $blurb = delimit $sentences "" | printf "%s" | strings.TrimSpace }}
 	 {{ end }}
        {{ with $blurb }}<p class="post-summary">{{ . }}</p>{{ end }}
      </li>

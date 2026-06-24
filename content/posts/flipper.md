@@ -1,5 +1,6 @@
 ---
 title: "What I Use My Flipper Zero For"
+description: "I think it can be safely said that the Flipper Zero is one of the most iconic hacker devices of this decade. Filled to the brim with features, and yet tragically over-hyped, I think some people came away from the project feeling... disappointed? I can't relate."
 date: 2026-06-22T09:12:10-06:00
 draft: false
 tags: ['flipper, infosec, hardware']

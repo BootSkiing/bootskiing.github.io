@@ -1,5 +1,6 @@
 ---
 title: "First"
+description: "Welcome!"
 date: 2026-01-19T14:02:36-07:00
 draft: false
 tags: ['first!']
